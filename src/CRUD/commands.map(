@@ -1,0 +1,16 @@
+{state.map(
+    (x)=>{
+      return(
+        <section id={style.user}>
+          <h1>Name : {x.name}</h1>
+          <h1>Salary : {x.salary}</h1>
+          <h1>Id : {x.id}</h1>
+        </section>
+            )
+          } )
+  }
+
+  npx json-server  --watch Backend/db.json --port 8000
+  <h1>Name: {x.name} </h1>
+              <h1>Salary: {x.salary}</h1>
+              <h1>ID: {x.id}</h1>
